@@ -72,6 +72,16 @@ This platform leverages Ai/ml and various technologies to help farmers manage th
 
     The application will be available at `http://127.0.0.1:5000`.
 
+## Working Diagrams & Working ProtoType Picture of Platform
+
+### Architrcture Diagram
+
+resources\Architecture.png
+
+### Flow Diagram
+
+resources\Architecture.png
+
 ## API Integration
 
 ### Weather API
