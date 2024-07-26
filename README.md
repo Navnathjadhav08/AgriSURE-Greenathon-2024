@@ -84,7 +84,11 @@ This platform leverages Ai/ml and various technologies to help farmers manage th
 ![WireFrame Diagram](resources/wireframe.jpg)  
 
 ### Prototype Screenshots  
-![Prototype Screenshot](resources/Prot1.png)
+![Prototype Screenshot](resources/1.png)
+![Prototype Screenshot](resources/2.png)
+![Prototype Screenshot](resources/3.png)
+![Prototype Screenshot](resources/4.png)
+![Prototype Screenshot](resources/5.png)
 
 ## API Integration
 
