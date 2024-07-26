@@ -81,7 +81,7 @@ This platform leverages Ai/ml and various technologies to help farmers manage th
 ![Flow Diagram](resources/flow.png)  
 
 ### WireFrame Diagram  
-![WireFrame Diagram](resources/wireframe.png)  
+![WireFrame Diagram](resources/wireframe.jpg)  
 
 ### Prototype Screenshots  
 ![Prototype Screenshot](resources/Prot1.png)
