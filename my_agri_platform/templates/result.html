@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="result-container">
+        <h1>Crop Analysis Results</h1>
+        
+        <h2>Crop Details</h2>
+        <p><strong>Crop Name:</strong> {{ data.crop_name }}</p>
+        <p><strong>Crop Variety:</strong> {{ data.crop_variety }}</p>
+        <p><strong>Plantation Date:</strong> {{ data.plantation_date }}</p>
+        <p><strong>Soil Type:</strong> {{ data.soil_type }}</p>
+        <p><strong>Water Resources:</strong> {{ data.water_resources }}</p>
+        <p><strong>Irrigation System:</strong> {{ data.irrigation_system }}</p>
+        <p><strong>Land Area:</strong> {{ data.land_area }} acres</p>
+        <p><strong>Average Yield:</strong> {{ data.avg_yield }} kgs/acre</p>
+        
+        <h2>Market Price Details</h2>
+        <p><strong>Min Price:</strong> RS{{ market_price.min_price }}</p>
+        <p><strong>Max Price:</strong> RS{{ market_price.max_price }}</p>
+        <p><strong>Avg Price:</strong> RS{{ market_price.avg_price }}</p>
+        
+        <h2>Expected Income</h2>
+        <p><strong>Expected Income:</strong> RS{{ income }}</p>
+        
+        <h2>Income Calculation Plot</h2>
+        <img src="data:image/png;base64,{{ income_plot_url }}" alt="Income Calculation Plot">
+        
+        <h2>Predicted Impact on Crop</h2>
+        <img src="data:image/png;base64,{{ impact_plot_url }}" alt="Impact Prediction Plot">
+    </div>
+</body>
+</html>
