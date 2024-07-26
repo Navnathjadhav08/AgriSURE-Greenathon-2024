@@ -76,11 +76,19 @@ This platform leverages Ai/ml and various technologies to help farmers manage th
 
 ### Architrcture Diagram
 
-resources\Architecture.png
+resources/Architecture.png
 
 ### Flow Diagram
 
-resources\Architecture.png
+resources/Flow.png
+
+### WireFrame Diagram
+
+resources/WireFrame.png
+
+### Prototype Screenshots
+
+resources/Prot1.png
 
 ## API Integration
 
