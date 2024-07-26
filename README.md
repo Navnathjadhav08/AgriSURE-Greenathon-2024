@@ -1,6 +1,6 @@
 # AgriSURE-Greenathon-2024
 
-Here’s a basic README file outline for your project, including setup instructions, API integration, and key features:
+:
 
 ---
 
